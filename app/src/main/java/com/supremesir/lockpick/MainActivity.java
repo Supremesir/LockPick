@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     final String TAG = "MQTT";
     final String CLIENT_ID = "LockPick_App";
     final String SERVER_URL = "tcp://39.96.177.143:1883";
-    final String SUBSCRIPTION_TOPIC = "Instruction";
+    final String SUBSCRIPTION_TOPIC = "inTopic";
     final String PUBLISH_MESSAGE = "open_sesame";
     final int SERVICE_QOS = 0;
     MqttAndroidClient client;
